@@ -1,0 +1,24 @@
+GIT HUB tutorials for me.
+
+FOR WINDOWS
+Downloading Instructions.
+1. Download Git for Windows.
+2. For Windows, we might be asked to update or install dot.net framework. Just do it.
+
+Once the download is over. We will have a git hub prompt (Not windows prompt).
+
+1. Create a repository as shown here and start commiting files as shown here.
+	https://help.github.com/articles/create-a-repo
+	
+2. But in place of
+	a. git remote add origin https://github.com/username/Hello-World.git
+	USE git remote add github https://github.com/username/Hello-World.git
+	
+	b. 	git push origin master
+	USE git push github master
+	
+So the line a. is used only once.
+But line b. is used everytime we commit.
+
+So the process of commiting is same as that of svn.
+add, commit and push.
