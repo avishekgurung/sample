@@ -22,3 +22,16 @@ But line b. is used everytime we commit.
 
 So the process of commiting is same as that of svn.
 add, commit and push.
+
+Using the same git hub in the new machine
+
+1. git config --global user.name "Avishek Gurung"
+2. git config --global user.email "avishek4886@gmail.com"
+3. git pull https://github.com/avishekgurung/cstrunk/
+4. Now we can create folders and files to be added in git
+5. git add springs/urFolderORFiles/
+6. git commit -m "Adding Spring MVC Project" projects/*
+7. git remote add github  https://github.com/avishekgurung/cstrunk/
+8. git push github master
+9. Give username and password
+10.Done
